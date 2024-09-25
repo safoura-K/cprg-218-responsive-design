@@ -6,9 +6,17 @@ body{ background-color: blue;
     color:white;
 
 }
+img{
+    float:right;
+    max-width: 760px;
+}
 @media screen and (max-width:480px) {
     body{
         background-color: red;
+    }
+    img{
+        float: none;
+        max-width: 100%;
     }
     
 }
